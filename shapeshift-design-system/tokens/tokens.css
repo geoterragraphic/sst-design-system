@@ -1,0 +1,39 @@
+/* ShapeShift Technologies design tokens, generated from tokens.json */
+:root{
+  --ss-navy:#12315a;
+  --ss-blue:#006eae;
+  --ss-cyan:#0093cf;
+  --ss-light-cyan:#5bc8f5;
+  --ss-ink:#101518;
+  --ss-grey:#5a6570;
+  --ss-midgrey:#989c9d;
+  --ss-mist:#edf1f4;
+  --ss-paper:#f1f2f8;
+  --ss-white:#ffffff;
+  --ss-on-navy-body:#dee2e8;
+  --ss-action:#c2e799;
+  --ss-action-hover:#aedb7e;
+  --ss-action-ink:var(--ss-ink);
+  --ss-action-edge:var(--ss-navy);
+  --ss-rule:rgba(18, 49, 90, 0.18);
+  --ss-focus:var(--ss-cyan);
+  --ss-error-edge:#b03a2e;
+  --ss-error-ink:#8e2e24;
+  --ss-warning-bg:#fff4d6;
+  --ss-warning-edge:#e8b54d;
+  --ss-warning-ink:#5a4200;
+  --ss-1:4px;
+  --ss-2:8px;
+  --ss-3:12px;
+  --ss-4:16px;
+  --ss-5:24px;
+  --ss-6:32px;
+  --ss-7:48px;
+  --ss-8:64px;
+  --ss-radius:3px;
+  --ss-pill:999px;
+  --ss-touch:44px;
+  --ss-input:48px;
+  --font-display:"Poppins", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-body:"Roboto", system-ui, -apple-system, "Segoe UI", sans-serif;
+}

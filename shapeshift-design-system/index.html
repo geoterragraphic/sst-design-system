@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ShapeShift Technologies Design System</title>
+<meta name="description" content="Colours, typography, spacing, logos and components for ShapeShift Technologies.">
+<link rel="stylesheet" href="css/fonts.css">
+<link rel="stylesheet" href="tokens/tokens.css">
+<link rel="stylesheet" href="css/components.css">
+<link rel="stylesheet" href="css/site.css">
+</head>
+<body>
+<div class="band" aria-hidden="true"><svg viewBox="0 0 1000 112" preserveAspectRatio="xMinYMid slice">
+
+<rect class="navy tile" x="0" y="0" width="204" height="112" rx="3"/>
+<rect class="cyan tile" x="208" y="0" width="48" height="54" rx="3"/>
+<rect class="mist tile" x="208" y="58" width="48" height="54" rx="3"/>
+<rect class="mist tile" x="260" y="0" width="100" height="54" rx="3"/>
+<rect class="navy tile" x="260" y="58" width="48" height="54" rx="3"/>
+<rect class="mist tile" x="312" y="58" width="48" height="54" rx="3"/>
+<rect class="blue tile" x="364" y="0" width="152" height="112" rx="3"/>
+<rect class="mist tile" x="520" y="0" width="48" height="54" rx="3"/>
+<rect class="cyan tile" x="520" y="58" width="48" height="54" rx="3"/>
+<rect class="navy tile" x="572" y="0" width="48" height="54" rx="3"/>
+<rect class="mist tile" x="572" y="58" width="100" height="54" rx="3"/>
+<rect class="mist tile" x="624" y="0" width="48" height="54" rx="3"/>
+<rect class="cyan tile" x="676" y="0" width="100" height="112" rx="3"/>
+<rect class="action tile" x="780" y="0" width="48" height="54" rx="3"/>
+<rect class="navy tile" x="780" y="58" width="48" height="54" rx="3"/>
+<rect class="navy tile" x="832" y="0" width="152" height="112" rx="3"/>
+</svg></div>
+<nav class="toc" aria-label="Sections"><div class="wrap"><a href="#colours">Colours</a><a href="#type">Typography</a><a href="#spacing">Spacing</a><a href="#logos">Logos</a><a href="#components">Components</a><a href="#guidelines">Guidelines</a><a href="#tokens">CSS tokens</a></div></nav>
+<main class="wrap">
+<header class="hero"><img src="assets/logos/logo-horizontal.png" alt="ShapeShift Technologies"><h1>ShapeShift Technologies design system</h1><p>ShapeShift Technologies designs and manufactures fibre reinforced facade panels (FRP, GRC/GFRC, GRG). This system matches the live website&#x27;s consistency layer (v1.4–1.6, September 2026), so documents, slides, drawings and web pages read as one brand. Light only: the brand has no dark theme.</p></header>
+<section class="s" id="colours"><h2 class="st">Colours</h2><div class="grid"><div class="sw"><div class="chip" style="background:#12315a"></div><div class="swb"><div class="swn">ss-navy</div><code>#12315a</code><p>Headings, titles, card titles, strong 1-2px rules, table header rules and dark bands. 13:1 on ss-white, 11.5:1 on ss-mist.</p></div></div><div class="sw"><div class="chip" style="background:#006eae"></div><div class="swb"><div class="swn">ss-blue</div><code>#006eae</code><p>Links, text buttons and coloured bands that carry text (ss-white text on it, 5.5:1). 5.5:1 on ss-white, 4.8:1 on ss-mist.</p></div></div><div class="sw"><div class="chip" style="background:#0093cf"></div><div class="swb"><div class="swn">ss-cyan</div><code>#0093cf</code><p>Rules, bullets, focus outlines, highlights, callout edges and text 24px or larger only (3.5:1 on ss-white). Never a fill behind small text.</p></div></div><div class="sw"><div class="chip" style="background:#5bc8f5"></div><div class="swb"><div class="swn">ss-light-cyan</div><code>#5bc8f5</code><p>Small text or active states on ss-navy (6.8:1). Not for use on light grounds.</p></div></div><div class="sw"><div class="chip" style="background:#101518"></div><div class="swb"><div class="swn">ss-ink</div><code>#101518</code><p>Body text on ss-white, ss-mist and ss-paper; text on ss-action buttons (13:1).</p></div></div><div class="sw"><div class="chip" style="background:#5a6570"></div><div class="swb"><div class="swn">ss-grey</div><code>#5a6570</code><p>Secondary text: captions, labels, metadata. 6:1 on ss-white, 5.2:1 on ss-mist, 5.3:1 on ss-paper.</p></div></div><div class="sw"><div class="chip" style="background:#989c9d"></div><div class="swb"><div class="swn">ss-midgrey</div><code>#989c9d</code><p>Decorative, non-text only: hairlines, shape fills, diagram areas. Never for text or for icons and borders that carry meaning; use ss-grey for those.</p></div></div><div class="sw"><div class="chip" style="background:#edf1f4"></div><div class="swb"><div class="swn">ss-mist</div><code>#edf1f4</code><p>Light Gray. Panels, subtle backgrounds, table row hover, callout ground. Safe ground for the logo.</p></div></div><div class="sw"><div class="chip" style="background:#f1f2f8"></div><div class="swb"><div class="swn">ss-paper</div><code>#f1f2f8</code><p>Notes and quiet callout panels.</p></div></div><div class="sw"><div class="chip" style="background:#ffffff"></div><div class="swb"><div class="swn">ss-white</div><code>#ffffff</code><p>Page background; text on ss-navy and ss-blue.</p></div></div><div class="sw"><div class="chip" style="background:#dee2e8"></div><div class="swb"><div class="swn">ss-on-navy-body</div><code>#dee2e8</code><p>Body text on ss-navy bands (white at about 86% over navy), 10:1. Headings on navy stay ss-white.</p></div></div><div class="sw"><div class="chip" style="background:#c2e799"></div><div class="swb"><div class="swn">ss-action</div><code>#c2e799</code><p>Green action colour: buttons and calls to action only. Text on it is ss-action-ink, edge ss-action-edge.</p></div></div><div class="sw"><div class="chip" style="background:#aedb7e"></div><div class="swb"><div class="swn">ss-action-hover</div><code>#aedb7e</code><p>Hover state of ss-action buttons (ss-ink text 11.6:1).</p></div></div><div class="sw"><div class="chip" style="background:#101518"></div><div class="swb"><div class="swn">ss-action-ink</div><code>{ss-ink}</code><p>Text on ss-action and ss-action-hover. Never white.</p></div></div><div class="sw"><div class="chip" style="background:#12315a"></div><div class="swb"><div class="swn">ss-action-edge</div><code>{ss-navy}</code><p>1px border around action buttons.</p></div></div><div class="sw"><div class="chip" style="background:rgba(18, 49, 90, 0.18)"></div><div class="swb"><div class="swn">ss-rule</div><code>rgba(18, 49, 90, 0.18)</code><p>Neutral rules, dividers and table cell lines (ss-navy at 18%).</p></div></div><div class="sw"><div class="chip" style="background:#0093cf"></div><div class="swb"><div class="swn">ss-focus</div><code>{ss-cyan}</code><p>2px focus outline, 2px offset, on light grounds (3.5:1 on ss-white). On ss-navy use ss-white.</p></div></div><div class="sw"><div class="chip" style="background:#b03a2e"></div><div class="swb"><div class="swn">ss-error-edge</div><code>#b03a2e</code><p>Error border on form fields (6:1 on ss-white).</p></div></div><div class="sw"><div class="chip" style="background:#8e2e24"></div><div class="swb"><div class="swn">ss-error-ink</div><code>#8e2e24</code><p>Error message text on ss-white (8.2:1).</p></div></div><div class="sw"><div class="chip" style="background:#fff4d6"></div><div class="swb"><div class="swn">ss-warning-bg</div><code>#fff4d6</code><p>Warning panel ground.</p></div></div><div class="sw"><div class="chip" style="background:#e8b54d"></div><div class="swb"><div class="swn">ss-warning-edge</div><code>#e8b54d</code><p>Warning panel edge (decorative; message carries the meaning in ss-warning-ink).</p></div></div><div class="sw"><div class="chip" style="background:#5a4200"></div><div class="swb"><div class="swn">ss-warning-ink</div><code>#5a4200</code><p>Warning text on ss-warning-bg (8.7:1).</p></div></div></div></section>
+<section class="s" id="type"><h2 class="st">Typography</h2><p>Poppins for headings, labels and buttons; Roboto for body text. Sizes shown are the desktop maximum; web sizes are fluid.</p><h3 class="sub">Display · Poppins</h3><div class="ty"><div class="tym"><div class="swn">hero</div><code>56px / 1.04 / 600 / -0.02em</code><p>Hero titles. Fluid: clamp(2.125rem, 1.35rem + 2.9vw, 3.5rem), 34 to 56px. ss-navy, text-wrap: balance, sentence case.</p></div><div class="tys" style="font-family:&quot;Poppins&quot;, system-ui, -apple-system, &quot;Segoe UI&quot;, sans-serif;font-size:56px;line-height:1.04;font-weight:600;letter-spacing:-0.02em;color:var(--ss-navy)">Facades that hold their shape</div></div><div class="ty"><div class="tym"><div class="swn">h1</div><code>44px / 1.1 / 600 / -0.015em</code><p>Page titles. Fluid: clamp(1.875rem, 1.42rem + 1.75vw, 2.75rem), 30 to 44px. ss-navy, balance.</p></div><div class="tys" style="font-family:&quot;Poppins&quot;, system-ui, -apple-system, &quot;Segoe UI&quot;, sans-serif;font-size:44px;line-height:1.1;font-weight:600;letter-spacing:-0.015em;color:var(--ss-navy)">GRC facade panels for coastal towers</div></div><div class="ty"><div class="tym"><div class="swn">h2</div><code>32px / 1.2 / 500 / -0.01em</code><p>Section headings. Fluid: clamp(1.5625rem, 1.42rem + 0.58vw, 2rem), 25 to 32px. ss-navy. Articles: 32px above, 8px below.</p></div><div class="tys" style="font-family:&quot;Poppins&quot;, system-ui, -apple-system, &quot;Segoe UI&quot;, sans-serif;font-size:32px;line-height:1.2;font-weight:500;letter-spacing:-0.01em;color:var(--ss-navy)">How FRP panels are moulded</div></div><div class="ty"><div class="tym"><div class="swn">h3</div><code>24px / 1.25 / 500</code><p>Sub-sections. Fluid: clamp(1.25rem, 1.17rem + 0.33vw, 1.5rem), 20 to 24px. ss-navy. Articles: 24px above, 12px below.</p></div><div class="tys" style="font-family:&quot;Poppins&quot;, system-ui, -apple-system, &quot;Segoe UI&quot;, sans-serif;font-size:24px;line-height:1.25;font-weight:500;letter-spacing:normal;color:var(--ss-navy)">Post-processing and finishing</div></div><div class="ty"><div class="tym"><div class="swn">h4</div><code>19px / 1.3 / 600</code><p>H4 and card titles. Fluid: clamp(1.0625rem, 1.03rem + 0.16vw, 1.1875rem), 17 to 19px. ss-navy.</p></div><div class="tys" style="font-family:&quot;Poppins&quot;, system-ui, -apple-system, &quot;Segoe UI&quot;, sans-serif;font-size:19px;line-height:1.3;font-weight:600;letter-spacing:normal;color:var(--ss-navy)">Glassfibre reinforced gypsum</div></div><div class="ty"><div class="tym"><div class="swn">label</div><code>13px / 1.3 / 600 / 0.11em</code><p>Labels, table headers, form labels, footer headings, spec labels. Fluid 12 to 13px. Always uppercase, 0.1-0.12em.</p></div><div class="tys" style="font-family:&quot;Poppins&quot;, system-ui, -apple-system, &quot;Segoe UI&quot;, sans-serif;font-size:13px;line-height:1.3;font-weight:600;letter-spacing:0.11em;color:var(--ss-ink)">PROJECT SPECIFICATION</div></div><div class="ty"><div class="tym"><div class="swn">button</div><code>14px / 1 / 600 / 0.08em</code><p>Buttons. Uppercase, padding 16px 32px, radius ss-radius.</p></div><div class="tys" style="font-family:&quot;Poppins&quot;, system-ui, -apple-system, &quot;Segoe UI&quot;, sans-serif;font-size:14px;line-height:1;font-weight:600;letter-spacing:0.08em;color:var(--ss-ink)">REQUEST A QUOTE</div></div><h3 class="sub">Text · Roboto</h3><div class="ty"><div class="tym"><div class="swn">lead</div><code>19px / 1.6 / 400</code><p>Intro paragraphs. Fluid 17 to 19px; line height 1.68 in articles. ss-ink.</p></div><div class="tys" style="font-family:&quot;Roboto&quot;, system-ui, -apple-system, &quot;Segoe UI&quot;, sans-serif;font-size:19px;line-height:1.6;font-weight:400;letter-spacing:normal;color:var(--ss-ink)">ShapeShift Technologies designs and manufactures FRP, GRC and GRG facade panels.</div></div><div class="ty"><div class="tym"><div class="swn">body</div><code>17px / 1.65 / 400</code><p>Body copy, lists, table cells in prose. Fluid: clamp(1rem, 0.98rem + 0.1vw, 1.0625rem), 16 to 17px. ss-ink. 500/600 for emphasis.</p></div><div class="tys" style="font-family:&quot;Roboto&quot;, system-ui, -apple-system, &quot;Segoe UI&quot;, sans-serif;font-size:17px;line-height:1.65;font-weight:400;letter-spacing:normal;color:var(--ss-ink)">Each panel is moulded to the architect&#x27;s geometry, then finished and inspected before it leaves the factory.</div></div><div class="ty"><div class="tym"><div class="swn">small</div><code>15px / 1.5 / 400</code><p>Captions, metadata, table cells, footer text. Fluid 14 to 15px. ss-grey for secondary text; tabular numerals where figures align.</p></div><div class="tys" style="font-family:&quot;Roboto&quot;, system-ui, -apple-system, &quot;Segoe UI&quot;, sans-serif;font-size:15px;line-height:1.5;font-weight:400;letter-spacing:normal;color:var(--ss-ink)">Figure 2. Panel joint detail at 1:5.</div></div></section>
+<section class="s" id="spacing"><h2 class="st">Spacing, radius and sizing</h2><div class="sprow"><div class="swn">ss-1</div><code>4px</code><div class="bar" style="width:4px"></div><p>Hairline gaps; joint between icon and text.</p></div><div class="sprow"><div class="swn">ss-2</div><code>8px</code><div class="bar" style="width:8px"></div><p>Space below article H2, between consecutive text blocks and list items; callout vertical padding.</p></div><div class="sprow"><div class="swn">ss-3</div><code>12px</code><div class="bar" style="width:12px"></div><p>Paragraph spacing in articles; space below H3; form field groups; table cell vertical padding; callout side padding.</p></div><div class="sprow"><div class="swn">ss-4</div><code>16px</code><div class="bar" style="width:16px"></div><p>Card padding; gap between buttons.</p></div><div class="sprow"><div class="swn">ss-5</div><code>24px</code><div class="bar" style="width:24px"></div><p>Space above article H3; standard section padding at 1024px and below.</p></div><div class="sprow"><div class="swn">ss-6</div><code>32px</code><div class="bar" style="width:32px"></div><p>Space above article H2; tight sections; button horizontal padding.</p></div><div class="sprow"><div class="swn">ss-7</div><code>48px</code><div class="bar" style="width:48px"></div><p>Standard section padding.</p></div><div class="sprow"><div class="swn">ss-8</div><code>64px</code><div class="bar" style="width:64px"></div><p>Hero section padding top and bottom.</p></div><h3 class="sub">Radius</h3><div class="rdg"><div class="rdi"><div class="rdb" style="border-radius:3px"></div><div class="swn">ss-radius</div><code>3px</code><p>Every corner: buttons, inputs, cards, panels.</p></div><div class="rdi"><div class="rdb" style="border-radius:999px"></div><div class="swn">ss-pill</div><code>999px</code><p>Pills and chips only.</p></div></div><h3 class="sub">Sizing</h3><ul><li><span class="swn">ss-touch</span> <code>44px</code> — Minimum touch target.</li><li><span class="swn">ss-input</span> <code>48px</code> — Input and mobile menu row height.</li></ul></section>
+<section class="s" id="logos"><h2 class="st">Logos and trust badges</h2><div class="grid"><figure class="as"><div class="asb"><img src="assets/logos/logo-horizontal.png" alt="ShapeShift Technologies horizontal logo"></div><figcaption><code>logo-horizontal.png</code>Primary logo. Headers, title blocks, wide layouts. Min 120px wide.</figcaption></figure><figure class="as"><div class="asb"><img src="assets/logos/logo-stacked.png" alt="ShapeShift Technologies stacked logo"></div><figcaption><code>logo-stacked.png</code>Covers, title slides, square tiles. Min 80px wide.</figcaption></figure><figure class="as"><div class="asb"><img src="assets/badges/badge-lrqa-iso9001.png" alt="LRQA Certified ISO 9001"></div><figcaption><code>badge-lrqa-iso9001.png</code>Documents only, header or footer. Ask before using.</figcaption></figure><figure class="as"><div class="asb"><img src="assets/badges/badge-grca.png" alt="GRCA International Full Member"></div><figcaption><code>badge-grca.png</code>Documents only, header or footer. Ask before using.</figcaption></figure></div></section>
+<section class="s" id="components"><h2 class="st">Components</h2><p>Live examples using the component styles in this page's stylesheet.</p><article class="comp" id="c-button"><h3 class="sub">Button</h3><div class="stage"><div class="ss-row"><a class="ss-btn ss-btn--action" href="#">Request a quote</a><a class="ss-btn ss-btn--text" href="#">View projects</a></div></div><div class="guide"><p>Two buttons: the green action button for the one call to action, and the blue text button for everything secondary.</p>
+<ul>
+<li>Markup: <code>&lt;a class="ss-btn ss-btn--action"&gt;</code> or <code>&lt;button class="ss-btn ss-btn--text"&gt;</code>; the consumer provides the label and the link or handler.</li>
+<li>Poppins 600, 14px, uppercase, 0.08em tracking, padding 16px 32px, <code>ss-radius</code>, at least <code>ss-touch</code> tall.</li>
+<li>Action: <code>ss-action</code> fill, <code>ss-action-ink</code> text, 1px <code>ss-action-edge</code> border, <code>ss-action-hover</code> on hover. One per view.</li>
+<li>Text: <code>ss-blue</code> text, no fill.</li>
+<li>Focus: 2px <code>ss-focus</code> outline at 2px offset; white inside <code>NavyBand</code>.</li>
+<li>Don't: white text on green, green for anything that is not an action, small text on cyan.</li>
+</ul></div></article><article class="comp" id="c-datatable"><h3 class="sub">DataTable</h3><div class="stage"><div style="padding:var(--ss-4)"><table class="ss-table"><thead><tr><th>Material</th><th>Typical use</th><th class="num">Thickness (mm)</th><th class="num">Weight (kg/m²)</th></tr></thead>
+<tbody><tr><td>FRP</td><td>Curved exterior cladding</td><td class="num">6</td><td class="num">12</td></tr>
+<tr><td>GRC / GFRC</td><td>Facade panels, screens</td><td class="num">12</td><td class="num">28</td></tr>
+<tr><td>GRG</td><td>Interior ceilings and walls</td><td class="num">10</td><td class="num">18</td></tr></tbody></table>
+<p style="font-size:14px;color:var(--ss-grey);margin:var(--ss-2) 0 0">Illustrative values for layout only.</p></div></div><div class="guide"><p>A plain table for specifications, schedules and quotes: no fill on the header, a strong navy rule under it, hairline rules between rows.</p>
+<ul>
+<li>Markup: <code>&lt;table class="ss-table"&gt;</code> with <code>&lt;thead&gt;</code>/<code>&lt;tbody&gt;</code>; add <code>class="num"</code> to right-align figure columns. The consumer provides the rows.</li>
+<li>Header: Poppins 600 at label size, uppercase, 0.1em, <code>ss-ink</code>, 2px <code>ss-navy</code> bottom rule.</li>
+<li>Cells: Roboto at <code>small</code> size, <code>ss-3</code> vertical padding, 1px <code>ss-rule</code>, tabular numerals; row hover <code>ss-mist</code>.</li>
+<li>Don't: zebra stripes, coloured header fills, centred figures.</li>
+</ul></div></article><article class="comp" id="c-callout"><h3 class="sub">Callout</h3><div class="stage"><div style="padding:var(--ss-4);display:grid;gap:var(--ss-3)">
+<div class="ss-callout">Panels are cured for 28 days before installation.</div>
+<div class="ss-callout ss-callout--note">Note: dimensions are shown in millimetres.</div>
+<div class="ss-callout ss-callout--warning" role="note"><strong>Warning:</strong> confirm anchor positions with the structural engineer.</div>
+</div></div><div class="guide"><p>A quiet panel for an aside in articles and documents: <code>ss-mist</code> ground, 1px <code>ss-cyan</code> left edge, <code>ss-2</code> × <code>ss-3</code> padding.</p>
+<ul>
+<li>Markup: <code>&lt;div class="ss-callout"&gt;</code>; add <code>ss-callout--note</code> (<code>ss-paper</code> ground) or <code>ss-callout--warning</code> (<code>ss-warning-bg</code>, <code>ss-warning-edge</code>, <code>ss-warning-ink</code>). The consumer provides the text.</li>
+<li>Start a warning with the word "Warning" so meaning never rests on colour alone.</li>
+<li>Don't: thick coloured edges, icons in emoji, stacking more than two in a row.</li>
+</ul></div></article><article class="comp" id="c-navyband"><h3 class="sub">NavyBand</h3><div class="stage"><section class="ss-band"><div class="ss-label">Capabilities</div>
+<h2 class="ss-h" style="font-size:32px;line-height:1.2;font-weight:500;letter-spacing:-.01em;margin:var(--ss-2) 0">From drawing to installed facade</h2>
+<p style="margin:0 0 var(--ss-5);max-width:60ch">Design support, mould making, production and finishing under one roof.</p>
+<a class="ss-btn ss-btn--action" href="#">Talk to our team</a></section></div><div class="guide"><p>A full-width <code>ss-navy</code> section for emphasis, with <code>ss-7</code> padding.</p>
+<ul>
+<li>Markup: <code>&lt;section class="ss-band"&gt;</code>; the consumer provides a label, heading, body and an optional action button.</li>
+<li>Headings <code>ss-white</code>; body <code>ss-on-navy-body</code>; small accents and labels <code>ss-light-cyan</code>; focus outline white.</li>
+<li>Don't: place the logo on it, use <code>ss-cyan</code> for small text on it, or nest a second dark band.</li>
+</ul></div></article><article class="comp" id="c-formfield"><h3 class="sub">FormField</h3><div class="stage"><div style="padding:var(--ss-4)">
+<div class="ss-field"><label for="FormField-a">Project name</label><input id="FormField-a" value="Marina tower facade"></div>
+<div class="ss-field ss-field--error"><label for="FormField-b">Email</label><input id="FormField-b" value="name@" aria-invalid="true" aria-describedby="FormField-bm"><span class="ss-field__msg" id="bm">Enter a full email address.</span></div>
+</div></div><div class="guide"><p>A labelled text input, <code>ss-input</code> (48px) tall, with an optional help or error message.</p>
+<ul>
+<li>Markup: <code>&lt;div class="ss-field"&gt;</code> holding <code>&lt;label&gt;</code>, <code>&lt;input&gt;</code> and an optional <code>&lt;span class="ss-field__msg"&gt;</code>; add <code>ss-field--error</code> and <code>aria-invalid</code> for errors. The consumer provides the id, label and message text.</li>
+<li>Label: Poppins 600 uppercase at label size, 7px above the input. Groups <code>ss-3</code> apart.</li>
+<li>Error: <code>ss-error-edge</code> border, message in <code>ss-error-ink</code> that says what to fix.</li>
+<li>Don't: placeholder text as the only label, red alone without a message.</li>
+</ul></div></article><article class="comp" id="c-documentfooter"><h3 class="sub">DocumentFooter</h3><div class="stage"><footer class="ss-docfoot"><div class="ss-docfoot__co"><img class="ss-docfoot__logo" src="assets/logos/logo-horizontal.png" alt="ShapeShift Technologies"></div>
+<div class="ss-docfoot__badges"><img src="assets/badges/badge-lrqa-iso9001.png" alt="LRQA Certified ISO 9001"><img src="assets/badges/badge-grca.png" alt="GRCA International Full Member"></div></footer></div><div class="guide"><p>The running footer for documents: the horizontal logo or company details on the left, the trust badges on the right, bottom-aligned.</p>
+<ul>
+<li>Ask the user first whether to include badges, and which. The consumer provides that choice and any company details.</li>
+<li>Badges: ISO 9001 then GRCA, <code>ss-4</code>–<code>ss-5</code> apart, 12–15mm tall in A4 (about 45–60px on screen), never taller than the logo.</li>
+<li>White ground only. Use on the first page and/or the running footer, never both header and footer.</li>
+<li>Don't: use it on social posts or blog articles, add claims next to the badges, recolour or crop either badge.</li>
+</ul></div></article></section>
+<section class="s" id="guidelines"><h2 class="st">Guidelines</h2><div class="md"><h2>Content fundamentals</h2>
+<ul>
+<li>Write the company name as <strong>ShapeShift Technologies</strong> in text, never "ShapeShift" alone.</li>
+<li>Headings use <strong>sentence case</strong> ("How FRP panels are moulded"). Uppercase is reserved for <code>label</code>, <code>button</code>, table headers, form labels and footer headings, always letter-spaced 0.08–0.13em.</li>
+<li>Plain, technical, confident. Name the material and the process; no emoji.</li>
+<li>Do not write claims beside the trust badges (certificate numbers, scope, "fully compliant") unless the user supplies the wording.</li>
+</ul>
+<h2>Colour</h2>
+<ul>
+<li>Body text is <code>ss-ink</code> on <code>ss-white</code>, <code>ss-mist</code> or <code>ss-paper</code>. Headings, titles and card titles are <code>ss-navy</code>.</li>
+<li>Secondary text (captions, labels, metadata) is <code>ss-grey</code>. Never set text in <code>ss-midgrey</code> — it is for lines, shapes, icons and diagram fills only.</li>
+<li><code>ss-action</code> green is for buttons and calls to action <strong>only</strong>. Text on it is <code>ss-action-ink</code>, with a 1px <code>ss-action-edge</code> border; hover is <code>ss-action-hover</code>. Never white text on green.</li>
+<li><code>ss-cyan</code> is for rules, bullets, focus outlines, highlights and text 24px or larger. Never put small text on a cyan fill — a coloured band that carries text uses <code>ss-blue</code> with <code>ss-white</code> text.</li>
+<li>On <code>ss-navy</code> bands: headings <code>ss-white</code>, body <code>ss-on-navy-body</code>, small accents <code>ss-light-cyan</code>, focus outline white.</li>
+<li>Neutral dividers are <code>ss-rule</code> (navy at 18%). Strong rules are 1–2px solid <code>ss-navy</code>.</li>
+<li>Form states: errors use <code>ss-error-edge</code> borders and <code>ss-error-ink</code> text; warnings use <code>ss-warning-bg</code> with a <code>ss-warning-edge</code> edge and <code>ss-warning-ink</code> text.</li>
+<li>Charts and diagrams take series colours in this order: <code>ss-navy</code>, <code>ss-blue</code>, <code>ss-cyan</code>, <code>ss-midgrey</code>, <code>ss-action</code>.</li>
+<li>Orange is retired. Never use <code>#FF9F1C</code> or the old blue <code>#0370A6</code>. The orange and teal inside the GRCA and LRQA badges belong to those badges only.</li>
+</ul>
+<h2>Typography</h2>
+<ul>
+<li><strong>Poppins</strong> (<code>display</code>, 500 and 600): every heading from <code>hero</code> to <code>h4</code>, card titles, <code>label</code>, <code>button</code>, navigation, table headers, form and spec labels.</li>
+<li><strong>Roboto</strong> (<code>body</code>, 400; 500/600 for emphasis): body copy, lists, table cells, form inputs, captions, footer text.</li>
+<li>Load both from Google Fonts: <code>https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&amp;family=Roboto:wght@400;500;600&amp;display=swap</code>.</li>
+<li>On the web the scale is fluid; the sizes in the type styles are the desktop maximum and each style's note gives its <code>clamp()</code>. <code>hero</code>, <code>h1</code> and <code>h2</code> use <code>text-wrap: balance</code>.</li>
+<li>Use tabular numerals (<code>font-variant-numeric: tabular-nums</code>) wherever figures line up.</li>
+<li>Documents and slides (A4): H1 26–28pt Poppins 600, H2 18–20pt Poppins 500, H3 14pt Poppins 500, body 10.5–11pt Roboto at 1.45–1.5 line spacing, captions 9pt Roboto in <code>ss-grey</code>, labels 8pt Poppins 600 uppercase. Slides scale the same ratios up.</li>
+</ul>
+<h2>Spacing and layout</h2>
+<ul>
+<li>One scale for every margin, padding and gap: <code>ss-1</code> 4px through <code>ss-8</code> 64px.</li>
+<li>Sections: hero <code>ss-8</code> top and bottom (72px at 1024px wide and below); standard <code>ss-7</code> (<code>ss-5</code> at 1024px and below); tight <code>ss-6</code> (40px at 1024px and below).</li>
+<li>Articles: H2 <code>ss-6</code> above, <code>ss-2</code> below; H3 <code>ss-5</code> above, <code>ss-3</code> below; paragraphs <code>ss-3</code> below; list items <code>ss-2</code> apart. The first heading in a block has no top margin.</li>
+<li>Form field groups <code>ss-3</code> apart; labels 7px above the input.</li>
+<li>Corners are <code>ss-radius</code> (3px) everywhere; <code>ss-pill</code> only for pills and chips. No shadows.</li>
+<li>Touch targets at least <code>ss-touch</code> (44px); inputs and mobile menu rows <code>ss-input</code> (48px).</li>
+<li>Focus: 2px solid <code>ss-focus</code> outline at 2px offset (white on navy).</li>
+<li>Text width: web paragraphs fill their container; documents, slides, drawings and stand-alone pages keep body text to 65–75 characters per line.</li>
+</ul>
+<h2>Logo</h2>
+<ul>
+<li>Use only the supplied files in <strong>Logos</strong>: <code>logo-horizontal.png</code> for headers, title blocks, slide footers and wide layouts; <code>logo-stacked.png</code> for covers, title slides and square social tiles.</li>
+<li>Never redraw, trace, regenerate, recolour, stretch, crop, rotate, outline or add effects.</li>
+<li>Place on <code>ss-white</code> or <code>ss-mist</code> only. The wordmark is near-black: never on <code>ss-navy</code>, other dark grounds or busy photos.</li>
+<li>Clear space at least the height of the "TECHNOLOGIES" line. Minimum width: horizontal 120px (30mm), stacked 80px (20mm).</li>
+</ul>
+<h2>Trust badges (documents only)</h2>
+<ul>
+<li><strong>Badges</strong> holds <code>badge-lrqa-iso9001.png</code> (LRQA ISO 9001) and <code>badge-grca.png</code> (GRCA International Full Member).</li>
+<li>Ask the user, once per document, whether to include them and which (both, ISO 9001 only, GRCA only, none). Unattended: leave them out and say so.</li>
+<li>Documents only — reports, proposals, quotes, capability statements, data sheets, letters, certificates. Never on LinkedIn posts, carousels, social tiles, video thumbnails or blog articles.</li>
+<li>Header or footer only, never in the body or the cover hero. 12–15mm tall in A4 (about 45–60px on screen), never taller than the logo beside them.</li>
+<li>Footer (preferred): logo or company details left, badges right, bottom-aligned, <code>ss-4</code>–<code>ss-5</code> apart, ISO 9001 then GRCA. In multi-page documents use the first page and/or the running footer, not both header and footer.</li>
+<li>Keep a white ground. Do not crop the LRQA teal tile; the GRCA mark needs <code>ss-white</code> or <code>ss-mist</code> behind it.</li>
+</ul>
+<h2>Iconography</h2>
+<ul>
+<li>The brand defines no icon set. Draw simple line icons and diagram shapes in <code>ss-navy</code>, <code>ss-blue</code> or <code>ss-midgrey</code>; no emoji.</li>
+</ul>
+<h2>Components</h2>
+<ul>
+<li><code>Button</code>: the green action button for calls to action, the blue text button for secondary actions.</li>
+<li><code>DataTable</code>: spec and schedule tables.</li>
+<li><code>Callout</code>: notes and warnings.</li>
+<li><code>NavyBand</code>: dark section bands.</li>
+<li><code>FormField</code>: labelled inputs with error state.</li>
+<li><code>DocumentFooter</code>: logo with the trust badges for documents.</li>
+</ul></div></section>
+<section class="s" id="tokens"><h2 class="st">CSS tokens</h2><p>Also in <code>tokens/tokens.css</code>. Load <code>css/fonts.css</code> first for the self-hosted Poppins and Roboto files.</p><button class="ss-btn ss-btn--action copy" type="button" id="cp">Copy CSS</button><pre class="tok"><code id="tk">:root{
+  --ss-navy:#12315a;
+  --ss-blue:#006eae;
+  --ss-cyan:#0093cf;
+  --ss-light-cyan:#5bc8f5;
+  --ss-ink:#101518;
+  --ss-grey:#5a6570;
+  --ss-midgrey:#989c9d;
+  --ss-mist:#edf1f4;
+  --ss-paper:#f1f2f8;
+  --ss-white:#ffffff;
+  --ss-on-navy-body:#dee2e8;
+  --ss-action:#c2e799;
+  --ss-action-hover:#aedb7e;
+  --ss-action-ink:var(--ss-ink);
+  --ss-action-edge:var(--ss-navy);
+  --ss-rule:rgba(18, 49, 90, 0.18);
+  --ss-focus:var(--ss-cyan);
+  --ss-error-edge:#b03a2e;
+  --ss-error-ink:#8e2e24;
+  --ss-warning-bg:#fff4d6;
+  --ss-warning-edge:#e8b54d;
+  --ss-warning-ink:#5a4200;
+  --ss-1:4px;
+  --ss-2:8px;
+  --ss-3:12px;
+  --ss-4:16px;
+  --ss-5:24px;
+  --ss-6:32px;
+  --ss-7:48px;
+  --ss-8:64px;
+  --ss-radius:3px;
+  --ss-pill:999px;
+  --ss-touch:44px;
+  --ss-input:48px;
+  --font-display:&quot;Poppins&quot;, system-ui, -apple-system, &quot;Segoe UI&quot;, sans-serif;
+  --font-body:&quot;Roboto&quot;, system-ui, -apple-system, &quot;Segoe UI&quot;, sans-serif;
+}</code></pre></section>
+<footer class="pf">ShapeShift Technologies design system · exported 26 October 2026</footer>
+</main>
+<script>
+document.getElementById('cp').addEventListener('click',function(){var b=this;navigator.clipboard.writeText(document.getElementById('tk').textContent).then(function(){b.textContent='Copied';setTimeout(function(){b.textContent='Copy CSS'},1500)})});
+</script>
+</body>
+</html>

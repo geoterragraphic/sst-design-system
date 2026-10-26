@@ -1,0 +1,42 @@
+/* ShapeShift Technologies component styles. Load after css/fonts.css and tokens/tokens.css. */
+body{margin:0;font-family:var(--font-body);color:var(--ss-ink);background:var(--ss-white);font-size:17px;line-height:1.65}
+.ss-h{font-family:var(--font-display);color:var(--ss-navy);text-wrap:balance;margin:0}
+.ss-label{font-family:var(--font-display);font-weight:600;font-size:13px;line-height:1.3;letter-spacing:.11em;text-transform:uppercase}
+.ss-row{display:flex;gap:var(--ss-4);align-items:center;flex-wrap:wrap;padding:var(--ss-4)}
+
+.ss-btn{font-family:var(--font-display);font-weight:600;font-size:14px;line-height:1;letter-spacing:.08em;text-transform:uppercase;padding:16px 32px;border-radius:var(--ss-radius);min-height:var(--ss-touch);box-sizing:border-box;cursor:pointer;display:inline-flex;align-items:center;text-decoration:none}
+.ss-btn--action{background:var(--ss-action);color:var(--ss-action-ink);border:1px solid var(--ss-action-edge)}
+.ss-btn--action:hover{background:var(--ss-action-hover)}
+.ss-btn--text{background:none;border:1px solid transparent;color:var(--ss-blue);padding-left:var(--ss-3);padding-right:var(--ss-3)}
+.ss-btn--text:hover{text-decoration:underline}
+.ss-btn:focus-visible{outline:2px solid var(--ss-focus);outline-offset:2px}
+.ss-band .ss-btn:focus-visible{outline-color:var(--ss-white)}
+
+.ss-table{border-collapse:collapse;width:100%;font-variant-numeric:tabular-nums}
+.ss-table th{font-family:var(--font-display);font-weight:600;font-size:13px;letter-spacing:.1em;text-transform:uppercase;color:var(--ss-ink);text-align:left;padding:var(--ss-3) var(--ss-3) var(--ss-3) 0;border-bottom:2px solid var(--ss-navy)}
+.ss-table td{font-size:15px;line-height:1.5;padding:var(--ss-3) var(--ss-3) var(--ss-3) 0;border-bottom:1px solid var(--ss-rule)}
+.ss-table tbody tr:hover td{background:var(--ss-mist)}
+.ss-table .num{text-align:right}
+
+.ss-callout{background:var(--ss-mist);border-left:1px solid var(--ss-cyan);padding:var(--ss-2) var(--ss-3);font-size:15px;line-height:1.55;border-radius:0 var(--ss-radius) var(--ss-radius) 0}
+.ss-callout--note{background:var(--ss-paper)}
+.ss-callout--warning{background:var(--ss-warning-bg);border-left-color:var(--ss-warning-edge);color:var(--ss-warning-ink)}
+
+.ss-band{background:var(--ss-navy);color:var(--ss-on-navy-body);padding:var(--ss-7) var(--ss-6)}
+.ss-band .ss-h{color:var(--ss-white)}
+.ss-band .ss-label{color:var(--ss-light-cyan)}
+
+.ss-field{display:flex;flex-direction:column;gap:7px;margin-bottom:var(--ss-3);max-width:360px}
+.ss-field label{font-family:var(--font-display);font-weight:600;font-size:13px;letter-spacing:.1em;text-transform:uppercase;color:var(--ss-ink)}
+.ss-field input{font:inherit;font-size:16px;height:var(--ss-input);box-sizing:border-box;padding:0 var(--ss-3);border:1px solid var(--ss-grey);border-radius:var(--ss-radius);color:var(--ss-ink);background:var(--ss-white)}
+.ss-field input:focus-visible{outline:2px solid var(--ss-focus);outline-offset:2px}
+.ss-field--error input{border-color:var(--ss-error-edge)}
+.ss-field__msg{font-size:14px;line-height:1.5;color:var(--ss-grey)}
+.ss-field--error .ss-field__msg{color:var(--ss-error-ink)}
+
+.ss-docfoot{display:flex;justify-content:space-between;align-items:flex-end;gap:var(--ss-5);padding:var(--ss-4) var(--ss-5);border-top:1px solid var(--ss-rule);background:var(--ss-white)}
+.ss-docfoot__co{display:flex;flex-direction:column;gap:var(--ss-1);font-size:14px;line-height:1.5;color:var(--ss-grey)}
+.ss-docfoot__logo{height:56px;width:auto}
+.ss-docfoot__badges{display:flex;gap:var(--ss-4);align-items:flex-end}
+.ss-docfoot__badges img{height:48px;width:auto}
+
